@@ -1,0 +1,119 @@
+/* @import url(styles/mobile.css) only screen
+and (min-width:320px )
+and (max-width: 568px );
+
+@import url(styles/tablet.css) only screen
+and (min-width: 569px)
+and (max-width: 1024px);
+
+@import url(styles/web.css) only screen
+and (min-width: 1025px); */
+
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+    --color-primary: #123456;
+    --color-secondary: #abcdef;
+    --color-accent: #fedcba;
+    --color-text: #ffff;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Comme', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+h1{ 
+    overflow: hidden;
+    text-indent: -400px;
+    background-image: url(../recursos/iconochoiz.png);
+    width: 100px;
+    height: 30px;
+    background-size: cover;
+    align-self: center;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .bgprimary{
+    background: rgb(73,107,185);
+    background: linear-gradient(90deg, rgba(73,107,185,1) 0%, rgba(82,160,193,1) 43%, rgba(26,96,255,1) 76%, rgba(81,153,164,1) 100%);
+  }
+  .banner{
+    width: 100vw;
+    height: 50vw;
+    display: flex;
+    animation-name: transicion;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    justify-content: center;
+    align-content: center;
+}
+.bannercont{
+    margin-top: 20vw;
+    width: 75vw;
+    width: 320px;
+}
+#tratamientos .card{
+    width: auto;
+    height: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#comofunciona .card{
+    min-height: 200px;
+    height: auto;
+}
+#preguntas-frecuentes .card{
+    margin-bottom: 10px;
+    
+}
+.botonlink{
+    margin-top: 180px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-image: url(../recursos/iconos/aflecha\ .svg);
+    box-shadow:1px 10px rgba(0, 0, 0, 0.664) ;
+    border-radius: 40px;
+}
+
+.botonlink:hover{
+    background: none;
+    background-image: url(../recursos/iconos/afelcha\ hover.svg);
+    box-shadow:1px 1px 10px rgba(243, 243, 243, 0.664) ;
+}
+
+
+h2{
+    background-image: url(recursos/iconochoiz.png);
+    background-size: cover;
+    text-indent: -9000px;
+    width: 150px;
+    height: 50px;
+    margin: auto;
+}
+.carousel-caption{
+    padding-bottom: 20%;
+}
+ .card4{
+    background-image: url(recursos/aanticonceptivos.png);
+
+ }
