@@ -106,8 +106,9 @@ h2{
     background-image: url(recursos/iconochoiz.png);
     background-size: cover;
     text-indent: -9000px;
-    width: 150px;
-    height: 50px;
+    min-width: 150px;
+    width: 21vw;
+    height: 7vw;
     margin: auto;
 }
 .carousel-caption{
